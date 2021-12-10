@@ -1,0 +1,204 @@
+
+html, .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://i.pinimg.com/originals/ab/b1/8b/abb18b3ff9da8c65e6936f27476f7603.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://i.pinimg.com/originals/ab/b1/8b/abb18b3ff9da8c65e6936f27476f7603.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.few-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/bc/ff/5b/bcff5be84984b38578d472b33e9a66b7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scattered-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/bc/ff/5b/bcff5be84984b38578d472b33e9a66b7.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.broken-clouds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/64/8f/0f/648f0f2dad03c3a0adbbda57c7df7e60.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shower-rain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i0.wp.com/www.gardendiary.info/wp-content/uploads/2015/09/rain-animation779.gif?resize=575%2C301&ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://i.pinimg.com/originals/1d/07/bc/1d07bc543b5848be59f821d8889c1091.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thunderstorm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.pinimg.com/originals/dd/f1/48/ddf1482dcd4dc5fc267cfa0a6c0cd720.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.snow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://64.media.tumblr.com/c5473bf66524bb7a55eab6eb42217203/tumblr_nq01giusiZ1t19jpho1_500.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://c.tenor.com/5ImWLS5QAJgAAAAC/foggy-fog.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.haze{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(242, 41, 41);
+    background-image: url('https://thumbs.gfycat.com/DeliciousUnfortunateCockroach-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-image: url('https://i.gifer.com/XFbw.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.smoke{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('https://img.wattpad.com/623d5da8b721c84e9a36de8021dc2e8e017af11c/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f374a415965784c733966727474413d3d2d3832323337393435312e313565396434643039663063646139313932333236353538313333312e676966');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 3rem;
+    align-items:center;
+    margin-left: 50px;
+
+}
+form {
+    margin-top: 5rem;
+}
+
+.input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 7px;
+    padding: 0 20px;
+    align-items:center;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.cityName{
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    align-items: center;
+    margin-left: 1px;
+}
+.div1{
+    /* margin: 1.5rem; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeday{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+i{
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+     flex-wrap: wrap;
+    max-width: 40rem;
+}
+.boxes{
+    padding: 0.5em;
+    height: 5rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.3rem;
+    font-size : 20px;
+    /* margin: 5px 2px; */
+} 
+
+@media only screen and ( max-width: 800px){
+    h1{
+        font-size: 150%;
+    }
+    .input{
+        width: 15rem;
+    }
+}

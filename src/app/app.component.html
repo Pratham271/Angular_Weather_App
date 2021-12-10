@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- <div class="background"> -->
+      <div  [ngClass]="
+      {
+        'body': description=== '',
+        'sky': description.toUpperCase().includes('SKY'),
+                'few-clouds': description.toUpperCase().includes('CLOUDS'),
+                'scattered-clouds': description.toUpperCase().includes('SCATTERED-CLOUDS'),
+                'broken-clouds ': description.toUpperCase().includes('BROKEN-CLOUDS'),
+                'shower-rain': description.toUpperCase().includes('SHOWER-RAIN'),
+                'rain': description.toUpperCase().includes('RAIN'),
+                'thunderstorm': description.toUpperCase().includes('THUNDERSTORM'),
+                'snow': description.toUpperCase().includes('SNOW'),
+                'mist': description.toUpperCase().includes('MIST'),
+                'haze': description.toUpperCase().includes('HAZE'),
+                'smoke': description.toUpperCase().includes('SMOKE')
+      }
+      ">
+    <h1>Check The Weather Of Your Desired Destination</h1>
+    <form (ngSubmit)='checkweather()'>
+      <input type="text" [(ngModel)] = 'city' [ngModelOptions]="{standalone: true}" class="input" placeholder="Enter the Destination"><i class="fa fa-search"></i>
+    </form>
+    <p class="cityName">City Name: {{city | uppercase}}</p>
+    
+    <div class="div1">
+      <div>
+        <span class="box">
+          <p class = "boxes"><i class="fa fa-temperature-high"></i>Max Temp : <br><p style="text-align: center;"></p>{{data.main.temp_max}} C</p>
+          <p class = "boxes"><i class="fa fa-tint"></i>Humidity : <br><p style="text-align: center;"></p>{{data.main.humidity}} %</p>
+          <p class = "boxes"><i class="fa fa-wind"></i>Wind : <br><p style="text-align: center;"></p>{{data.wind.speed}} km/hr</p>
+          <p class = "boxes"><i class="fa fa-eye"></i>Visibility : <br><p style="text-align: center;"></p>{{data.visibility}} m</p>
+          <p class = "boxes"><i class="fas fa-temperature-low"></i>Min Temp : <br><p style="text-align: center;"></p>{{data.main.temp_min }} C</p>
+          <p class = "boxes"><i class="fab fa-cloudscale"></i>Pressure: <br><p style="text-align: center;"></p>{{data.main.pressure}}</p>
+          <p class = "boxes"><i class="fa fa-temperature-high"></i>Feels like : <br><p style="text-align: center;"></p>{{data.main.feels_like}} C</p>
+        </span>
+        <span>
+          <img src="" alt="">
+          <p style="font-size: 1.2rem; text-align: center; margin-top: 2.1rem;">Description: {{data.weather[0].description | uppercase}}</p>
+      </span>
+      </div>
+      <!-- {{data.name}}
+      <br>
+      {{data.visibility}}
+      <br>
+      {{data.weather[0].description}}
+      <br>
+      {{data.main.temp}}
+      <br>
+      {{data.main.feels_like}}
+      <br>
+      {{data.main.temp_min}}
+      <br>
+      {{data.main.humidity}} -->
+    
+        
+      
+    </div>
+      
+  </div>
+  <!-- </div> -->
+
+
+
+
+<router-outlet></router-outlet>
